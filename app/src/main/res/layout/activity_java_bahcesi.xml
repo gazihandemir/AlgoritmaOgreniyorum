@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/java2"
+    tools:context=".JavaBahcesiActivity">
+
+    <Button
+        android:id="@+id/btnJavaBahce11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce11click"
+        android:text="⓫"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnJavaBahce10"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce10" />
+
+    <Button
+        android:id="@+id/btnJavaBahce1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="btnBahce1click"
+        android:text="❶"
+        android:textColor="@android:color/holo_blue_light"
+
+        android:textSize="85sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce2" />
+
+    <Button
+        android:id="@+id/btnJavaBahce2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce2click"
+        android:text="❷"
+
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="85sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnJavaBahce3"
+        app:layout_constraintStart_toEndOf="@+id/btnJavaBahce1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnJavaBahce10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce10click"
+        android:text="❿"
+        android:textColor="@android:color/holo_blue_bright"
+
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnJavaBahce11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnJavaBahce8" />
+
+    <Button
+        android:id="@+id/btnJavaBahce9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce9click"
+        android:text="❾ "
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="85sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce8" />
+
+    <Button
+        android:id="@+id/btnJavaBahce8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="85sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce8click"
+        android:text="❽ "
+        android:textColor="@android:color/holo_red_dark"
+
+        app:layout_constraintEnd_toStartOf="@+id/btnJavaBahce9"
+        app:layout_constraintStart_toEndOf="@+id/btnJavaBahce7"
+        app:layout_constraintTop_toBottomOf="@+id/btnJavaBahce5" />
+
+    <Button
+        android:id="@+id/btnJavaBahce3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce3click"
+        android:text="❸"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce2" />
+
+    <Button
+        android:id="@+id/btnJavaBahce4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce4click"
+        android:text="❹"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="85sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce5" />
+
+    <Button
+        android:id="@+id/btnJavaBahce5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="85sp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce5click"
+        android:text="❺ "
+        android:textColor="@android:color/holo_green_light"
+
+        app:layout_constraintEnd_toStartOf="@+id/btnJavaBahce6"
+        app:layout_constraintStart_toEndOf="@+id/btnJavaBahce4"
+        app:layout_constraintTop_toBottomOf="@+id/btnJavaBahce2" />
+
+    <Button
+        android:id="@+id/btnJavaBahce6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce6click"
+        android:text="❻ "
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="85sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce5" />
+
+    <Button
+        android:id="@+id/btnJavaBahce7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="btnBahce7click"
+        android:text="❼ "
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

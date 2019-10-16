@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simge"
+    tools:context=".JavaBahcesi1.JavaBahcesiButton1_1">
+
+    <TextView
+        android:id="@+id/tvbahce1_1Soru"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Java Nedir ? "
+        android:textColor="@color/colorAccent"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBahce1_1Y1"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnBahce1_1Y1"
+        android:text="Geliştirme Ortamı"
+        app:layout_constraintBottom_toTopOf="@+id/btnBahce1_1Y2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvbahce1_1Soru" />
+
+    <Button
+        android:id="@+id/btnBahce1_1Y2"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnBahce1_1Y2"
+        android:text="Kod Edütörü"
+        app:layout_constraintBottom_toTopOf="@+id/btnBahce1_1Y3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBahce1_1Y1" />
+
+    <Button
+        android:id="@+id/btnBahce1_1Y3"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnBahce1_1Y3"
+        android:text="Düzenleme Aracı"
+        app:layout_constraintBottom_toTopOf="@+id/btnBahce1_1D1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBahce1_1Y2" />
+
+    <Button
+        android:id="@+id/btnBahce1_1D1"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnBahce1_1D1"
+        android:text="Programlama Dili"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBahce1_1Y3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
