@@ -8,22 +8,6 @@
     tools:context=".JavaBahcesiActivity">
 
     <Button
-        android:id="@+id/btnJavaBahce11"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:background="@android:color/transparent"
-        android:onClick="btnBahce11click"
-        android:text="⓫"
-        android:textColor="@android:color/holo_purple"
-        android:textSize="85sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnJavaBahce10"
-        app:layout_constraintTop_toTopOf="@+id/btnJavaBahce10" />
-
-    <Button
         android:id="@+id/btnJavaBahce1"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -66,11 +50,11 @@
         android:background="@android:color/transparent"
         android:onClick="btnBahce10click"
         android:text="❿"
-        android:textColor="@android:color/holo_blue_bright"
 
+        android:textColor="@android:color/holo_blue_bright"
         android:textSize="85sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnJavaBahce11"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnJavaBahce8" />
 
@@ -175,4 +159,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/btnJavaBahce8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnJavaBahce8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
