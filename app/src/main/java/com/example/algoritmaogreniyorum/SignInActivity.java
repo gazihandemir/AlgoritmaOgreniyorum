@@ -22,6 +22,8 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
         edName = findViewById(R.id.edNameSignInActivity);
         edPassword = findViewById(R.id.edPasswordSingInActivity);
+        int sayi = (int) Math.sqrt(16.0);
+        System.out.println("sayi : "+sayi);
 
     }
 
