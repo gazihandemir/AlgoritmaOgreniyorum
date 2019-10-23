@@ -11,6 +11,7 @@ import com.example.algoritmaogreniyorum.JavaBahcesi1.JavaBahcesiButton1_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi2.JavaBahcesiButton2_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi3.JavaBahcesiButton3_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi4.JavaBahcesiButton4_1;
+import com.example.algoritmaogreniyorum.JavaBahcesi5.JavaBahcesiButton5_1;
 
 public class JavaBahcesiActivity extends AppCompatActivity {
     Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10;
@@ -116,12 +117,13 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton4_1.class);
         startActivity(intent);
         buton5 = 1;
-    }/*
+    }
     public void btnBahce5click(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton5_1.class);
+        Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton5_1.class);
         startActivity(intent);
         buton6 = 1;
     }
+    /*
     public void btnBahce6click(View view){
         Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton6_1.class);
         startActivity(intent);
