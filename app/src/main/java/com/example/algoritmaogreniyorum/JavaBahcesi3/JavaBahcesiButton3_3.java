@@ -3,6 +3,7 @@ package com.example.algoritmaogreniyorum.JavaBahcesi3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -67,5 +68,19 @@ public class JavaBahcesiButton3_3 extends AppCompatActivity {
     public void devam3_3(View view) {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiActivity.class);
         startActivity(intent);
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.toast_layout,
+                (ViewGroup) findViewById(R.id.custom_toast_container));
+
+        TextView text = layout.findViewById(R.id.text);
+        text.setText("TEBRİKLER 4. ADIMA GEÇTİNİZ!");
+        text.setTextSize(36);
+        text.setTextColor(Color.parseColor("#FF4444"));
+
+        Toast toast = new Toast(getApplicationContext());
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.setDuration(Toast.LENGTH_LONG);
+        toast.setView(layout);
+        toast.show();
     }
 }

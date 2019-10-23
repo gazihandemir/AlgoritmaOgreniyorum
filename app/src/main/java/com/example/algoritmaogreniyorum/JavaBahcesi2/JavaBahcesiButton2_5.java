@@ -38,7 +38,7 @@ public class JavaBahcesiButton2_5 extends AppCompatActivity {
                 (ViewGroup) findViewById(R.id.custom_toast_container));
 
         TextView text = layout.findViewById(R.id.text);
-        text.setText("TEBRİKLER 3 ADIMA GEÇTİNİZ!");
+        text.setText("TEBRİKLER 3. ADIMA GEÇTİNİZ!");
         text.setTextSize(36);
         text.setTextColor(Color.parseColor("#FF4444"));
 
