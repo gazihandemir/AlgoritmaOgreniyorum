@@ -4,98 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/simgemavi"
+    android:background="@drawable/simgemor"
+    tools:context=".JavaBahcesi6.JavaBahcesiButton6_1"
 
-    tools:context=".JavaBahcesi5.JavaBahcesiButton5_3">
+    >
 
     <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Aşağıdaki kodlardan hangisi hata verir ? "
+        android:text="System.out.println fonksiyonu çıktı almamızı sağlar.Ekranda veri gösterir."
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevap5_3_1"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnCevap5_3_1"
+    <TextView
+        android:id="@+id/textView36"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
-        android:background="@color/colorPrimary"
-        android:onClick="cevap5_3_1"
-        android:text="System.out.println('' 2 '' + '' java '');"
+        android:layout_marginBottom="16dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="System.out.println(1+1);"
         android:textColor="@color/colorAccent"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevap5_3_2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevap6_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/tvCevap6_1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalistir6_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
     <Button
-        android:id="@+id/btnCevap5_3_2"
-        android:layout_width="0dp"
+        android:id="@+id/btnCalistir6_1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="cevap5_3_2"
-        android:text="System.out.println('' 3 '' + '' 2 '');"
+        android:onClick="calistir6_1"
+        android:text="ÇALIŞTIR"
         android:textColor="@color/colorAccent"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevap5_3_3"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevam6_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevap5_3_1" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCevap6_1" />
 
     <Button
-        android:id="@+id/btnCevap5_3_3"
-        android:layout_width="0dp"
+        android:id="@+id/btnDevam6_1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@color/colorPrimary"
-        android:onClick="cevap5_3_3"
-        android:text="System.out.println(''3'' + 2);"
+        android:onClick="devam6_1"
+        android:text="DEVAM"
         android:textColor="@color/colorAccent"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevap5_3_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevap5_3_2" />
-
-    <Button
-        android:id="@+id/btnCevap5_3_4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
-        android:background="@color/colorPrimary"
-        android:onClick="cevap5_3_4"
-        android:text="System.out.println('' String '' + '' öğreniyorum '');"
-        android:textColor="@color/colorAccent"
-        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevap5_3_3" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/btnCalistir6_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
