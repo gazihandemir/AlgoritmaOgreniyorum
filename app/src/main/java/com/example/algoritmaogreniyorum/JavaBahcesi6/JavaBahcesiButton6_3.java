@@ -89,9 +89,9 @@ public class JavaBahcesiButton6_3 extends AppCompatActivity {
             overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         }else {
             stfu++;
-            if (stfu >= 3){
+            if (stfu >= 4){
                 btnDevam.setText("CEVAP");
-                if (stfu > 3){
+                if (stfu > 4){
                     Toast.makeText(this, "1. Cevap : Scanner veriGirisi , 2. Cevap : String veri , 3. Cevap : Lütfen bir kelime giriniz", Toast.LENGTH_LONG).show();
 
                 }
