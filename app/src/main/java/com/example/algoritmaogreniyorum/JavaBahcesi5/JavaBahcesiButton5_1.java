@@ -20,11 +20,13 @@ public class JavaBahcesiButton5_1 extends AppCompatActivity {
         tvCevap = findViewById(R.id.tvCevap5_1);
         btnDevam = findViewById(R.id.btnDevam5_1);
         btnDevam.setVisibility(View.INVISIBLE);
+        tvCevap.setVisibility(View.INVISIBLE);
 
     }
     public void calistir5_1(View view){
         tvCevap.setText("Efsanegeliyor");
         btnDevam.setVisibility(View.VISIBLE);
+        tvCevap.setVisibility(View.VISIBLE);
     }public void devam5_1(View view){
         Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton5_2.class);
         startActivity(intent);

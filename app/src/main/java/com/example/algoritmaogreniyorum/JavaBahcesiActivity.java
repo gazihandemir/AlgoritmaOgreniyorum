@@ -13,9 +13,10 @@ import com.example.algoritmaogreniyorum.JavaBahcesi3.JavaBahcesiButton3_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi4.JavaBahcesiButton4_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi5.JavaBahcesiButton5_1;
 import com.example.algoritmaogreniyorum.JavaBahcesi6.JavaBahcesiButton6_1;
+import com.example.algoritmaogreniyorum.JavaBahcesi7.JavaBahcesiButton7_1;
 
 public class JavaBahcesiActivity extends AppCompatActivity {
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7;
 
     int[] görünmezlik = new int[10];
     static int buton2;
@@ -24,9 +25,7 @@ public class JavaBahcesiActivity extends AppCompatActivity {
     static int buton5;
     static int buton6;
     static int buton7;
-    static int buton8;
-    static int buton9;
-    static int buton10;
+
 
 
     @Override
@@ -41,11 +40,9 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         btn5 = findViewById(R.id.btnJavaBahce5);
         btn6 = findViewById(R.id.btnJavaBahce6);
         btn7 = findViewById(R.id.btnJavaBahce7);
-        btn8 = findViewById(R.id.btnJavaBahce8);
-        btn9 = findViewById(R.id.btnJavaBahce9);
-        btn10 = findViewById(R.id.btnJavaBahce10);
 
-/*
+
+
         if (buton2 == 1) {
             btn2.setVisibility(View.VISIBLE);
         } else {
@@ -76,21 +73,8 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         }else{
             btn7.setVisibility(View.INVISIBLE);
         }
-        if (buton8 == 1) {
-            btn8.setVisibility(View.VISIBLE);
-        }else{
-            btn8.setVisibility(View.INVISIBLE);
-        }
-        if (buton9 == 1) {
-            btn9.setVisibility(View.VISIBLE);
-        }else{
-            btn9.setVisibility(View.INVISIBLE);
-        }
-        if (buton10 == 1) {
-            btn10.setVisibility(View.VISIBLE);
-        }else{
-            btn10.setVisibility(View.INVISIBLE);
-        }*/
+
+
 
 
     }
@@ -109,17 +93,20 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         btn3.setVisibility(View.VISIBLE);
         buton3 = 1;
     }
-    public void btnBahce3click(View view){
+
+    public void btnBahce3click(View view) {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton3_1.class);
         startActivity(intent);
         buton4 = 1;
     }
-    public void btnBahce4click(View view){
+
+    public void btnBahce4click(View view) {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton4_1.class);
         startActivity(intent);
         buton5 = 1;
     }
-    public void btnBahce5click(View view){
+
+    public void btnBahce5click(View view) {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton5_1.class);
         startActivity(intent);
         buton6 = 1;
@@ -130,24 +117,12 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         startActivity(intent);
         buton7 = 1;
     }
-    /*
-    public void btnBahce7click(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton7_1.class);
+
+    public void btnBahce7click(View view) {
+        Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton7_1.class);
         startActivity(intent);
-        buton8 = 1;
     }
-    public void btnBahce8click(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton8_1.class);
-        startActivity(intent);
-        buton9 = 1;
-    }
-    public void btnBahce9click(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton9_1.class);
-        startActivity(intent);
-        buton10 = 1;
-    }public void btnBahce10click(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton10_1.class);
-        startActivity(intent);
-    }*/
+
+
 
 }

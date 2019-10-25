@@ -26,11 +26,13 @@ public class JavaBahcesiButton2_5 extends AppCompatActivity {
         btnDevam = findViewById(R.id.btnDevam2_5);
         btnDevam.setVisibility(View.INVISIBLE);
         tvCevap = findViewById(R.id.tvCevap2_5);
+        tvCevap.setVisibility(View.INVISIBLE);
 
     }
     public void calistir2_5(View view){
         tvCevap.setText("Hata ! ");
         btnDevam.setVisibility(View.VISIBLE);
+        tvCevap.setVisibility(View.VISIBLE);
     }
     public void devam2_5(View view){
         LayoutInflater inflater = getLayoutInflater();
@@ -40,7 +42,7 @@ public class JavaBahcesiButton2_5 extends AppCompatActivity {
         TextView text = layout.findViewById(R.id.text);
         text.setText("TEBRİKLER 3. ADIMA GEÇTİNİZ!");
         text.setTextSize(36);
-        text.setTextColor(Color.parseColor("#FF4444"));
+        text.setTextColor(Color.parseColor("#ffffff"));
 
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.CENTER, 0, 0);

@@ -69,7 +69,7 @@ public class JavaBahcesiButton4_4 extends AppCompatActivity {
         TextView text = layout.findViewById(R.id.text);
         text.setText("TEBRİKLER 5. ADIMA GEÇTİNİZ!");
         text.setTextSize(36);
-        text.setTextColor(Color.parseColor("#FF4444"));
+        text.setTextColor(Color.parseColor("#ffffff"));
 
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.CENTER, 0, 0);

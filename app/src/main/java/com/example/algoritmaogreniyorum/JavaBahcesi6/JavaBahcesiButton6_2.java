@@ -25,12 +25,14 @@ public class JavaBahcesiButton6_2 extends AppCompatActivity {
         tvCevap = findViewById(R.id.tvCevap6_2);
         btnDevam = findViewById(R.id.btnDevam6_2);
         btnDevam.setVisibility(View.INVISIBLE);
+        tvCevap.setVisibility(View.INVISIBLE);
     }
 
     public void calistir6_2(View view) {
         String cevap = edCevap.getText().toString();
         tvCevap.setText(cevap);
         btnDevam.setVisibility(View.VISIBLE);
+        tvCevap.setVisibility(View.VISIBLE);
 
     }
 

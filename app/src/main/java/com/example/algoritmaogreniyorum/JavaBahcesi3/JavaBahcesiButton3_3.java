@@ -29,6 +29,7 @@ public class JavaBahcesiButton3_3 extends AppCompatActivity {
         edCevap = findViewById(R.id.edCevap3_3);
         btnDevam = findViewById(R.id.btnDevam3_3);
         btnDevam.setVisibility(View.INVISIBLE);
+
     }
 
     public void calistir3_3(View view) {
@@ -75,7 +76,7 @@ public class JavaBahcesiButton3_3 extends AppCompatActivity {
         TextView text = layout.findViewById(R.id.text);
         text.setText("TEBRİKLER 4. ADIMA GEÇTİNİZ!");
         text.setTextSize(36);
-        text.setTextColor(Color.parseColor("#FF4444"));
+        text.setTextColor(Color.parseColor("#ffffff"));
 
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.CENTER, 0, 0);

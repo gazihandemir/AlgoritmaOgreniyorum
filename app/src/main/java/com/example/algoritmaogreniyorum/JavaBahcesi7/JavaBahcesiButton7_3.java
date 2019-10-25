@@ -1,4 +1,4 @@
-package com.example.algoritmaogreniyorum.JavaBahcesi5;
+package com.example.algoritmaogreniyorum.JavaBahcesi7;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,23 +13,50 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.algoritmaogreniyorum.JavaBahcesiActivity;
+import com.example.algoritmaogreniyorum.OgrenimSecimActivity;
 import com.example.algoritmaogreniyorum.R;
 
-public class JavaBahcesiButton5_3 extends AppCompatActivity {
-
+public class JavaBahcesiButton7_3 extends AppCompatActivity {
+    static int sayac = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_java_bahcesi_button5_3);
+        setContentView(R.layout.activity_java_bahcesi_button7_3);
     }
 
-    public void cevap5_3_1(View view) {
+    public void btnCevap7_3_1(View view) {
+        if (sayac == 0){
+            Toast.makeText(this, "Javada string ve int toplamı hata verir ! Lütfen bir sonraki adıma geçmek için bir daha tıklayınız ", Toast.LENGTH_LONG).show();
+                sayac = 1;
+        }else{
+            LayoutInflater inflater = getLayoutInflater();
+            View layout = inflater.inflate(R.layout.toast_layout,
+                    (ViewGroup) findViewById(R.id.custom_toast_container));
+
+            TextView text = layout.findViewById(R.id.text);
+            text.setText("TEBRİKLER BU BÖLÜMÜ BİTİRDİNİZ ");
+            text.setTextSize(36);
+            text.setTextColor(Color.parseColor("#000000"));
+
+            Toast toast = new Toast(getApplicationContext());
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.setDuration(Toast.LENGTH_LONG);
+            toast.setView(layout);
+            toast.show();
+            Intent intent = new Intent(getApplicationContext(), OgrenimSecimActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+        }
+
+    }
+
+    public void btnCevap7_3_2(View view) {
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout2,
                 (ViewGroup) findViewById(R.id.custom_toast_container));
 
         TextView text = layout.findViewById(R.id.text);
-        text.setText("Yanlis Cevap!");
+        text.setText("Yanlış cevap");
         text.setTextSize(24);
 
         Toast toast = new Toast(getApplicationContext());
@@ -39,13 +66,13 @@ public class JavaBahcesiButton5_3 extends AppCompatActivity {
         toast.show();
     }
 
-    public void cevap5_3_2(View view) {
+    public void btnCevap7_3_3(View view) {
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout2,
                 (ViewGroup) findViewById(R.id.custom_toast_container));
 
         TextView text = layout.findViewById(R.id.text);
-        text.setText("Emin misin !  ");
+        text.setText("Tekrar deneyiniz");
         text.setTextSize(24);
 
         Toast toast = new Toast(getApplicationContext());
@@ -54,34 +81,14 @@ public class JavaBahcesiButton5_3 extends AppCompatActivity {
         toast.setView(layout);
         toast.show();
     }
-    // dogru
-    public void cevap5_3_3(View view) {
-        LayoutInflater inflater = getLayoutInflater();
-        View layout = inflater.inflate(R.layout.toast_layout,
-                (ViewGroup) findViewById(R.id.custom_toast_container));
 
-        TextView text = layout.findViewById(R.id.text);
-        text.setText("TEBRİKLER 6. ADIMA GEÇTİNİZ!");
-        text.setTextSize(36);
-        text.setTextColor(Color.parseColor("#ffffff"));
-
-        Toast toast = new Toast(getApplicationContext());
-        toast.setGravity(Gravity.CENTER, 0, 0);
-        toast.setDuration(Toast.LENGTH_LONG);
-        toast.setView(layout);
-        toast.show();
-        Intent intent = new Intent(getApplicationContext(), JavaBahcesiActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-    }
-
-    public void cevap5_3_4(View view) {
+    public void btnCevap7_3_4(View view) {
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.toast_layout2,
                 (ViewGroup) findViewById(R.id.custom_toast_container));
 
         TextView text = layout.findViewById(R.id.text);
-        text.setText("Tekrar deneyin ! ");
+        text.setText("Yanlış cevap");
         text.setTextSize(24);
 
         Toast toast = new Toast(getApplicationContext());
@@ -89,6 +96,5 @@ public class JavaBahcesiButton5_3 extends AppCompatActivity {
         toast.setDuration(Toast.LENGTH_SHORT);
         toast.setView(layout);
         toast.show();
-
     }
 }

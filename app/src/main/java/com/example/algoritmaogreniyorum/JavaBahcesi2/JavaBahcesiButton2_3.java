@@ -21,11 +21,15 @@ public class JavaBahcesiButton2_3 extends AppCompatActivity {
         btnDevam.setVisibility(View.INVISIBLE);
         tvCevap1 = findViewById(R.id.tvCevap2_3_1);
         tvCevap2 = findViewById(R.id.tvCevap2_3_2);
+        tvCevap2.setVisibility(View.INVISIBLE);
+        tvCevap1.setVisibility(View.INVISIBLE);
     }
     public void calistir2_3(View view){
         btnDevam.setVisibility(View.VISIBLE);
         tvCevap1.setText("21");
         tvCevap2.setText("5.0");
+        tvCevap1.setVisibility(View.VISIBLE);
+        tvCevap2.setVisibility(View.VISIBLE);
     }public void devam2_3(View view){
         Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton2_4.class);
         startActivity(intent);

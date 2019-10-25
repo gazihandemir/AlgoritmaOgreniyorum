@@ -20,10 +20,12 @@ public class JavaBahcesiButton1_3 extends AppCompatActivity {
         tvCalistir = findViewById(R.id.tvCalistir);
         btnDevam = findViewById(R.id.btnDevam1_3);
         btnDevam.setVisibility(View.INVISIBLE);
+        tvCalistir.setVisibility(View.INVISIBLE);
     }
     public void calistir(View view){
         tvCalistir.setText("Hello World");
         btnDevam.setVisibility(View.VISIBLE);
+        tvCalistir.setVisibility(View.VISIBLE);
     }
     public void devam1_3(View view){
         Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton1_4.class);

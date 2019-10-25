@@ -4,29 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/simgemor"
-    tools:context=".JavaBahcesi6.JavaBahcesiButton6_2">
+    android:background="@drawable/simgekahve"
+    tools:context=".JavaBahcesi7.JavaBahcesiButton7_1">
+
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/textView42"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Kullanıcıdan Veri almak için Scanner fonksiyonun kullanırız.Scanner kullandığımızda kullanıcının veri girme şansı olur "
+        android:text="İlk örnek olarak veri tipi dönüşümlerini öğreneceğiz."
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView38"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/textView46"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -35,35 +36,16 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Scanner veriGirisi = new Scanner(System.in);"
+        android:text="String veri tipini int veri tipine dönüştürmek için Integer.valueOf() fonksiyonunu kullanırız."
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintBottom_toTopOf="@+id/textView48"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
     <TextView
-        android:id="@+id/textView39"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="int veri = veriGirisi.nextInt();"
-        android:textColor="@color/colorAccent"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView41"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView40" />
-
-    <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/textView48"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -72,103 +54,100 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="System.out.println(''Lütfen bir sayi giriniz : '')"
+        android:text="String kelime = ''10'';"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
 
     <TextView
-        android:id="@+id/textView41"
-        android:layout_width="250dp"
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="int sayi = Integer.valueOf(kelime);"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Lütfen bir sayi giriniz : "
+        android:text="System.out.println(sayi);"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevap6_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
-
-    <EditText
-        android:id="@+id/edCevap6_2"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:ems="10"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorAccent"
-        android:textColorHint="@color/colorAccent"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevap6_2"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevap7_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView41"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
 
     <TextView
-        android:id="@+id/tvCevap6_2"
+        android:id="@+id/tvCevap7_1"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="48dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/elips"
+        android:layout_marginBottom="8dp"
         android:gravity="center|center_horizontal|center_vertical"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCalistir6_2"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalistir7_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
     <Button
-        android:id="@+id/btnCalistir6_2"
+        android:id="@+id/btnCalistir7_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
 
-        android:background="@drawable/elips_button"
-        android:onClick="calistir6_2"
+        android:onClick="calistir7_1"
         android:text="ÇALIŞTIR"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevam6_2"
+        android:background="@drawable/elips_button"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevam7_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCevap6_2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCevap7_1" />
 
     <Button
-        android:id="@+id/btnDevam6_2"
+        android:id="@+id/btnDevam7_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
-        android:onClick="devam6_2"
+        android:onClick="devam7_1"
         android:text="DEVAM"
+
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalistir6_2" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/btnCalistir7_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

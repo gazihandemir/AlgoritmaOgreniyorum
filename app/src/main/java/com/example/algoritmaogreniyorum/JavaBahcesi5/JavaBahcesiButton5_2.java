@@ -22,10 +22,12 @@ public class JavaBahcesiButton5_2 extends AppCompatActivity {
         tvCevap = findViewById(R.id.tvCevap5_2);
         btnDevam = findViewById(R.id.btnDevam5_2);
         btnDevam.setVisibility(View.INVISIBLE);
+        tvCevap.setVisibility(View.INVISIBLE);
     }
     public void calistir5_2(View view) {
         tvCevap.setText("HATA ! ");
        btnDevam.setVisibility(View.VISIBLE);
+       tvCevap.setVisibility(View.VISIBLE);
 
     }
     public void devam5_2(View view) {
