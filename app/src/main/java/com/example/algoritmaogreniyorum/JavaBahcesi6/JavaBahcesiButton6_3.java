@@ -21,7 +21,9 @@ public class JavaBahcesiButton6_3 extends AppCompatActivity {
     EditText edCevap1, edCevap2, edCevap3;
     TextView tvCevap;
     Button btnDevam;
-    static  int stfu = 0;
+    static int stfu = 0;
+    static int toast = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +73,7 @@ public class JavaBahcesiButton6_3 extends AppCompatActivity {
 
         String devam = "DEVAM";
 
-        if (devam.equals(btnDevam.getText().toString())){
+        if (devam.equals(btnDevam.getText().toString())) {
             LayoutInflater inflater = getLayoutInflater();
             View layout = inflater.inflate(R.layout.toast_layout,
                     (ViewGroup) findViewById(R.id.custom_toast_container));
@@ -86,21 +88,22 @@ public class JavaBahcesiButton6_3 extends AppCompatActivity {
             toast.setDuration(Toast.LENGTH_LONG);
             toast.setView(layout);
             toast.show();
-            Intent intent = new Intent(getApplicationContext(),JavaBahcesiActivity.class);
+            Intent intent = new Intent(getApplicationContext(), JavaBahcesiActivity.class);
             startActivity(intent);
             overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        }else {
+        } else {
             stfu++;
-            if (stfu >= 4){
+            if (stfu >= 4) {
                 btnDevam.setText("CEVAP");
-                if (stfu > 4){
-                    Toast.makeText(this, "1. Cevap : Scanner veriGirisi , 2. Cevap : String veri , 3. Cevap : Lütfen bir kelime giriniz", Toast.LENGTH_LONG).show();
-
+                if (stfu > 4) {
+                    Toast.makeText(this, "1. Cevap : Scanner veriGirisi , 2. Cevap : String veri , 3. Cevap : Lütfen bir kelime giriniz", Toast.LENGTH_SHORT).show();
                 }
-            }else{
-                Toast.makeText(this, "1. boşluğu doldururken 2. boşluğun devamındaki yerden yardım alabilirsiniz ", Toast.LENGTH_LONG).show();
-                Toast.makeText(this, "2. boşluğu doldururken String olduğunu unutmayın ve değişkeninizi veri olarak tanımlayın ", Toast.LENGTH_LONG).show();
-                Toast.makeText(this, "3. boşluğu doldururken System.out.println fonksiyonu içine dikkatli bakın", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this, "1. boşluğu doldururken 2. boşluğun devamındaki yerden yardım alabilirsiniz ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "2. boşluğu doldururken String olduğunu unutmayın ve değişkeninizi veri olarak tanımlayın ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "3. boşluğu doldururken System.out.println fonksiyonu içine dikkatli bakın", Toast.LENGTH_SHORT).show();
+
+
             }
 
 

@@ -42,7 +42,7 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         btn7 = findViewById(R.id.btnJavaBahce7);
 
 
-
+/*
         if (buton2 == 1) {
             btn2.setVisibility(View.VISIBLE);
         } else {
@@ -72,7 +72,7 @@ public class JavaBahcesiActivity extends AppCompatActivity {
             btn7.setVisibility(View.VISIBLE);
         }else{
             btn7.setVisibility(View.INVISIBLE);
-        }
+        }*/
 
 
 
