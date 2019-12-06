@@ -37,6 +37,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
+        android:onClick="algoritmaBahcesiGiris"
         android:text="🅰🅻🅶🅾🆁🅸🆃🅼🅰 🅾🅶🆁🅴🅽🅼🅴🅺 🅸🆂🆃🅸🆈🅾🆁🆄🅼"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"

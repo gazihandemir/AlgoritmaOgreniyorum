@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JavaBahcesi7.JavaBahcesiButton7_3"></activity>
+        <activity android:name=".AlgoritmaBahcesiActivity"></activity>
+        <activity android:name=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_3" />
+        <activity android:name=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_2" />
+        <activity android:name=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_1" />
+        <activity android:name=".JavaBahcesi7.JavaBahcesiButton7_3" />
         <activity android:name=".JavaBahcesi7.JavaBahcesiButton7_2" />
         <activity android:name=".JavaBahcesi7.JavaBahcesiButton7_1" />
         <activity android:name=".JavaBahcesi6.JavaBahcesiButton6_3" />

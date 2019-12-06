@@ -86,8 +86,9 @@
 
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
+
         android:onClick="btnBahce5click"
+        android:background="@android:color/transparent"
         android:text="❺ "
         android:textColor="@android:color/holo_red_light"
         android:textSize="85sp"

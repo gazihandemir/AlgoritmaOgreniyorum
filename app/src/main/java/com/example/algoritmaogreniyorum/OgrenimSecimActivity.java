@@ -22,4 +22,10 @@ public class OgrenimSecimActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         System.out.println("Hello World");
     }
+    public void algoritmaBahcesiGiris(View view){
+        Intent intent = new Intent(getApplicationContext(),AlgoritmaBahcesiActivity.class);
+        startActivity(intent);
+
+
+    }
 }

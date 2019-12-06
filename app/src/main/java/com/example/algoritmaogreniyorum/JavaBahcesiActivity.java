@@ -18,7 +18,6 @@ import com.example.algoritmaogreniyorum.JavaBahcesi7.JavaBahcesiButton7_1;
 public class JavaBahcesiActivity extends AppCompatActivity {
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7;
 
-    int[] görünmezlik = new int[10];
     static int buton2;
     static int buton3;
     static int buton4;
