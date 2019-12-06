@@ -4,96 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/algos1"
-    tools:context=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_3"
-
-    >
+    tools:context=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_7">
 
     <TextView
-        android:id="@+id/textView59"
+        android:id="@+id/textView64"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
-
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Goster(); ne işe yarar ? "
+        android:text="Goster(ben bir efsaneyim)"
         android:textColor="@color/colorAccent"
         android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo1_3_1"
+        app:layout_constraintBottom_toTopOf="@+id/textView65"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnCevapAlgo1_3_1"
+    <TextView
+        android:id="@+id/textView65"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/colorPrimary"
-        android:background="@drawable/elips_button"
-        android:onClick="algoCevap1_3_1"
-        android:text="Kodların anlamını bize gösterir."
-
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo1_3_2"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Kod çalıştığında ekranda ne gösterecektir ? "
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo1_7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
 
-    <Button
-        android:id="@+id/btnCevapAlgo1_3_2"
+    <EditText
+        android:id="@+id/edCevapAlgo1_7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:onClick="algoCevap1_3_2"
-        android:text="Kodların çıktısını bize gösterir."
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo1_3_3"
+        android:ems="10"
+        android:hint="  Yazmaya başla"
+        android:background="@drawable/elips"
+        android:textColorHint="#ffffff"
+
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalistirAlgo1_7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo1_3_1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
 
     <Button
-        android:id="@+id/btnCevapAlgo1_3_3"
-        android:layout_width="0dp"
+        android:id="@+id/btnCalistirAlgo1_7"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
-        android:onClick="algoCevap1_3_3"
-        android:text="Ekranda veri göstermemizi sağlar"
+        android:onClick="calistirAlgo1_7"
+        android:text="ÇALIŞTIR"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo1_3_4"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo1_7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo1_3_2" />
+        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo1_7" />
 
     <Button
-        android:id="@+id/btnCevapAlgo1_3_4"
-        android:layout_width="0dp"
+        android:id="@+id/btnDevamAlgo1_7"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:onClick="algoCevap1_3_4"
-        android:text="Kodları ekranda gösterir."
+        android:onClick="devamAlgo1_7"
+        android:text="DEVAM"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo1_3_3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalistirAlgo1_7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
