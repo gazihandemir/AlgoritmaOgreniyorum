@@ -8,11 +8,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi2.AlgoritmaBahcesiButton2_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi3.AlgoritmaBahcesiButton3_1;
 
 public class AlgoritmaBahcesiActivity extends AppCompatActivity {
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10;
 
-    static int buton1,buton2,buton3,buton4,buton5,buton6,buton7,buton8,buton9,buton10;
+    static int buton1, buton2, buton3, buton4, buton5, buton6, buton7, buton8, buton9, buton10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,61 +81,71 @@ public class AlgoritmaBahcesiActivity extends AppCompatActivity {
         */
 
     }
-    public void btnAlgoBahceClick1(View view){
+
+    public void btnAlgoBahceClick1(View view) {
         Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton1_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton2 = 1;
     }
-    public void btnAlgoBahceClick2(View view){
-       /* Intent intent = new Intent(getApplicationContext(),.class);
+
+    public void btnAlgoBahceClick2(View view) {
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton2_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton3 = 1;*/
+        buton3 = 1;
     }
-    public void btnAlgoBahceClick3(View view){
-       /* Intent intent = new Intent(getApplicationContext(),.class);
+
+    public void btnAlgoBahceClick3(View view) {
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton3_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton4 = 1;*/
+        buton4 = 1;
     }
-    public void btnAlgoBahceClick4(View view){
+
+    public void btnAlgoBahceClick4(View view) {
     /*    Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton5 = 1;*/
     }
-    public void btnAlgoBahceClick5(View view){
+
+    public void btnAlgoBahceClick5(View view) {
       /*  Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton6 = 1;*/
     }
-    public void btnAlgoBahceClick6(View view){
+
+    public void btnAlgoBahceClick6(View view) {
        /* Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton7 = 1;*/
     }
-    public void btnAlgoBahceClick7(View view){
+
+    public void btnAlgoBahceClick7(View view) {
        /* Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton8 = 1;*/
     }
-    public void btnAlgoBahceClick8(View view){
+
+    public void btnAlgoBahceClick8(View view) {
        /* Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton9 = 1;*/
     }
-    public void btnAlgoBahceClick9(View view){
+
+    public void btnAlgoBahceClick9(View view) {
         /*Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         buton10 = 1;*/
     }
-    public void btnAlgoBahceClick10(View view){
+
+    public void btnAlgoBahceClick10(View view) {
       /*  Intent intent = new Intent(getApplicationContext(),.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);*/

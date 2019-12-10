@@ -3,12 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/algos3"
     android:layout_height="match_parent"
-    android:background="@drawable/algos1"
-    tools:context=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_7">
+    tools:context=".AlgoritmaBahcesi3.AlgoritmaBahcesiButton3_2">
+
+    <Button
+        android:id="@+id/btnCalistirAlgo3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips_button"
+        android:onClick="calistirAlgo3_2"
+        android:text="ÇALIŞTIR"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo3_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo3_2" />
 
     <TextView
-        android:id="@+id/textView64"
+        android:id="@+id/tvCevapAlgo3_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalistirAlgo3_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView80"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -17,16 +52,16 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Goster(ben bir efsaneyim)"
+        android:text="Birden fazla değişkenin değerini birlikte ekranda gösterebiliriz."
         android:textColor="@color/colorAccent"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView65"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView81"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView65"
+        android:id="@+id/textView81"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -35,54 +70,16 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Kod çalıştığında ekranda ne gösterecektir ? "
+        android:text="lakap = Efsane \n oyuncu = Ahmet \n Goster(lakap + oyuncu)"
         android:textColor="@color/colorAccent"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo1_7"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo3_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView64" />
-
-    <EditText
-        android:id="@+id/edCevapAlgo1_7"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint="  Yazmaya başla"
-        android:background="@drawable/elips"
-        android:textColorHint="#ffffff"
-
-        android:textColor="@color/colorAccent"
-        android:textSize="16sp"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btnCalistirAlgo1_7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+        app:layout_constraintTop_toBottomOf="@+id/textView80" />
 
     <Button
-        android:id="@+id/btnCalistirAlgo1_7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:onClick="calistirAlgo1_7"
-        android:text="ÇALIŞTIR"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo1_7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo1_7" />
-
-    <Button
-        android:id="@+id/btnDevamAlgo1_7"
+        android:id="@+id/btnDevamAlgo3_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -91,11 +88,10 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
-        android:onClick="devamAlgo1_7"
+        android:onClick="devamAlgo3_2"
         android:text="DEVAM"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalistirAlgo1_7" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalistirAlgo3_2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
