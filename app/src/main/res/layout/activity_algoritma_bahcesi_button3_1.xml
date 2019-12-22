@@ -52,8 +52,8 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Değişkenler sayesinde hafızada veri tutarız.Bu veriler üzerinde çalışabiliriz.Örnek kodda
-oyuncu değişkenine Ahmet değerini verdik.Bu nedenle ekranda Ahmet yazdırılacaktır."
+        android:text="\n Değişkenler sayesinde hafızada veri tutarız.Bu veriler üzerinde çalışabiliriz.Örnek kodda
+oyuncu değişkenine Ahmet değerini verdik.Bu nedenle ekranda Ahmet yazdırılacaktır. \n"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView79"
@@ -71,7 +71,7 @@ oyuncu değişkenine Ahmet değerini verdik.Bu nedenle ekranda Ahmet yazdırıla
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="oyuncu = Ahmet ; \n Goster(oyuncu)"
+        android:text="\n oyuncu = Ahmet ; \n Goster(oyuncu) \n"
         android:textColor="@color/colorAccent"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo3_1"

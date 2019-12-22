@@ -3,29 +3,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/algos3"
     android:layout_height="match_parent"
-    tools:context=".AlgoritmaBahcesi3.AlgoritmaBahcesiButton3_2">
-
-    <Button
-        android:id="@+id/btnCalistirAlgo3_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:onClick="calistirAlgo3_2"
-        android:text="ÇALIŞTIR"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo3_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo3_2" />
+    android:background="@drawable/algos4"
+    tools:context=".AlgoritmaBahcesi4.AlgoritmaBahcesiButton4_3">
 
     <TextView
-        android:id="@+id/tvCevapAlgo3_2"
+        android:id="@+id/textView93"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n Sayı değerlerini değişkenlere atayıp değişkenler sayesinde değeri gösterebiliriz. Örnek kodta sayi değişkenine 5 değeri atanıyor ve ekrana ekranda gösteriliyor \n "
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n sayi = 5 \n Goster(sayi) }\n "
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView95"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView95"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -37,49 +54,30 @@
         android:text=""
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCalistirAlgo3_2"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView81" />
-
-    <TextView
-        android:id="@+id/textView80"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Birden fazla değişkenin değerini birlikte ekranda gösterebiliriz. \n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView81"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView81"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n lakap = Efsane \n oyuncu = Ahmet \n Goster(lakap + oyuncu) \n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo3_2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView80" />
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
 
     <Button
-        android:id="@+id/btnDevamAlgo3_3"
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips_button"
+        android:onClick="calistirAlgo4_3"
+        android:text="ÇALIŞTIR"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo4_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+    <Button
+        android:id="@+id/btnDevamAlgo4_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,11 +85,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:textColor="@color/colorPrimary"
-        android:onClick="devamAlgo3_2"
+        android:onClick="devamAlgo4_3"
         android:text="DEVAM"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalistirAlgo3_2" />
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

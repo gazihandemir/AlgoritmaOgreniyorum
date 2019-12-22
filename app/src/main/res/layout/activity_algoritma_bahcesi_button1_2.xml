@@ -18,7 +18,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Ekranda bir şey göstermek için goster() fonksiyonunu kullanırız."
+        android:text="\n Ekranda bir şey göstermek için goster() fonksiyonunu kullanırız.\n "
         android:textColor="@color/colorAccent"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo1_2"

@@ -19,7 +19,7 @@
         android:gravity="center|center_horizontal|center_vertical"
         android:textColor="@color/colorAccent"
         android:textSize="32sp"
-        android:text="Goster() ile hangisi yapılabilir ? "
+        android:text="\n Goster() ile hangisi yapılabilir ? \n "
         app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo2_2_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

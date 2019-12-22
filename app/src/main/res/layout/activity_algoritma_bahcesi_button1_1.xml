@@ -20,13 +20,12 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="Bu eğitimde öğrendiklerin gerçek komutlar değildir.Algoritma mantığını kavraman için üretilen komutlardır.    Burada öğrendiklerin gerçek kodların Türkçeleştirilmiş halidir.Goster ,print fonksiyonunun türkçeleştirilmiş halidir.
-            Öğrenmeni kolaylaştırmak için türkçe başlıyoruz
-            2. bölümden sonra gerçek komutlarla öğrenmeye başlayacağız.
+        android:text="\n \n \n \n Bu eğitimde öğrendiklerin gerçek komutlar değildir.\n Algoritma mantığını kavraman için üretilen komutlardır.\n Burada öğrendiklerin gerçek kodların Türkçeleştirilmiş halidir.\nGoster ,print fonksiyonunun türkçeleştirilmiş halidir.
+            \nÖğrenmeni kolaylaştırmak için türkçe başlıyoruz\n 2. bölümden sonra gerçek komutlarla öğrenmeye başlayacağız \n \n \n \n .
 
 "
         android:textColor="@color/colorAccent"
-        android:textSize="32sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo1_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
