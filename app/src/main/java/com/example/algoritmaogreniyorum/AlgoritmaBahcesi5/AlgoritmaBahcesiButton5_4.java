@@ -10,29 +10,27 @@ import android.widget.TextView;
 
 import com.example.algoritmaogreniyorum.R;
 
-public class AlgoritmaBahcesiButton5_1 extends AppCompatActivity {
+public class AlgoritmaBahcesiButton5_4 extends AppCompatActivity {
     Button btnDevam;
     TextView tvCevap;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_algoritma_bahcesi_button5_1);
-        btnDevam = findViewById(R.id.btnDevamAlgo5_1);
+        setContentView(R.layout.activity_algoritma_bahcesi_button5_4);
+        btnDevam = findViewById(R.id.btnDevamAlgo5_4);
         btnDevam.setVisibility(View.INVISIBLE);
-        tvCevap = findViewById(R.id.tvCevapAlgo5_1);
+        tvCevap = findViewById(R.id.tvCevapAlgo5_4);
         tvCevap.setVisibility(View.INVISIBLE);
 
     }
-
-    public void calistirAlgo5_1(View view) {
+    public void calistirAlgo5_4(View view){
         tvCevap.setVisibility(View.VISIBLE);
-        tvCevap.setText(" 9 ");
+        tvCevap.setText("30");
         btnDevam.setVisibility(View.VISIBLE);
     }
-
-    public void devamAlgo5_1(View view) {
-        Intent intent = new Intent(getApplicationContext(),AlgoritmaBahcesiButton5_2.class);
+    public void devamAlgo5_4(View view){
+        Intent intent = new Intent(getApplicationContext(),AlgoritmaBahcesiButton5_5.class);
         startActivity(intent);
     }
+
 }

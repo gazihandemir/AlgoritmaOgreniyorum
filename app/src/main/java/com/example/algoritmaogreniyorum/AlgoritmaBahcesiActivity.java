@@ -10,6 +10,8 @@ import android.widget.Button;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi2.AlgoritmaBahcesiButton2_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi3.AlgoritmaBahcesiButton3_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi4.AlgoritmaBahcesiButton4_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi5.AlgoritmaBahcesiButton5_1;
 
 public class AlgoritmaBahcesiActivity extends AppCompatActivity {
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10;
@@ -104,17 +106,17 @@ public class AlgoritmaBahcesiActivity extends AppCompatActivity {
     }
 
     public void btnAlgoBahceClick4(View view) {
-    /*    Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton4_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton5 = 1;*/
+        buton5 = 1;
     }
 
     public void btnAlgoBahceClick5(View view) {
-      /*  Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton5_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton6 = 1;*/
+        buton6 = 1;
     }
 
     public void btnAlgoBahceClick6(View view) {

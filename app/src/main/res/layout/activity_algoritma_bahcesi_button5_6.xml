@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/algos2"
-    tools:context=".AlgoritmaBahcesi2.AlgoritmaBahcesiButton2_3">
+    android:background="@drawable/algos5"
+    tools:context=".AlgoritmaBahcesi5.AlgoritmaBahcesiButton5_6">
 
     <TextView
-        android:id="@+id/textView69"
+        android:id="@+id/textView107"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -18,79 +18,80 @@
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
         android:textColor="@color/colorAccent"
-        android:textSize="32sp"
-        android:text="\n Goster(işte geliyor) kodundaki işte geliyor nedir ? \n"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo2_3_1"
+        android:textSize="24sp"
+        android:text="\n bol() fonksiyonuna göndereceğimiz parametreler ile bölme işlemi yapabiliriz. \n"
+        app:layout_constraintBottom_toTopOf="@+id/textView108"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnCevapAlgo2_3_1"
+    <TextView
+        android:id="@+id/textView108"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:onClick="cevapAlgo2_3_1"
-        android:text="\n Fonksiyondur \n"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo2_3_2"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:text="\n bol( 36 , 6 )\n"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo5_6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
 
-    <Button
-        android:id="@+id/btnCevapAlgo2_3_2"
+    <TextView
+        android:id="@+id/tvCevapAlgo5_6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:onClick="cevapAlgo2_3_2"
-        android:text="\n Değişkendir \n"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo2_3_3"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/button15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo2_3_1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
 
     <Button
-        android:id="@+id/btnCevapAlgo2_3_3"
-        android:layout_width="0dp"
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
+        android:onClick="calistirAlgo5_6"
+        android:text="ÇALIŞTIR"
         android:background="@drawable/elips_button"
-        android:onClick="cevapAlgo2_3_3"
-        android:text="\n Parametredir \n"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo2_3_4"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo5_6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo2_3_2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo5_6" />
 
     <Button
-        android:id="@+id/btnCevapAlgo2_3_4"
-        android:layout_width="0dp"
+        android:id="@+id/btnDevamAlgo5_6"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
+        android:onClick="devamAlgo5_6"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
-        android:onClick="cevapAlgo2_3_4"
-        android:text="\n Değişken türüdür \n"
-
+        android:text="DEVAM"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo2_3_3" />
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
 </androidx.constraintlayout.widget.ConstraintLayout>

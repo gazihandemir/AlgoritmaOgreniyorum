@@ -5,28 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/algos5"
-    tools:context=".AlgoritmaBahcesi5.AlgoritmaBahcesiButton5_1">
+    tools:context=".AlgoritmaBahcesi5.AlgoritmaBahcesiButton5_7">
 
     <TextView
-        android:id="@+id/textView101"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n topla() fonksiyonu 2 farklı sayıyı parametre olarak gönderdik.\n Fonksiyon bize onları toplamını çıktı olarak gösterecek \n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView102"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView102"
+        android:id="@+id/textView110"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -35,63 +17,83 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n topla( 3 , 6 ) \n"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo5_1"
+        android:textSize="20sp"
+        android:text="\n carp fonksiyonu kullanarak 20 ile 2 yi çarp.\n"
+        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo5_7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+        app:layout_constraintTop_toBottomOf="@+id/textView109" />
 
     <TextView
-        android:id="@+id/tvCevapAlgo5_1"
+        android:id="@+id/textView109"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text=""
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button13"
+        android:text="\n ********** \n"
+        app:layout_constraintBottom_toTopOf="@+id/textView110"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/button16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
-        android:onClick="calistirAlgo5_1"
+        android:onClick="calistirAlgo5_7"
         android:text="ÇALIŞTIR"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo5_1"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo5_7"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo5_1" />
+        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo5_7" />
 
     <Button
-        android:id="@+id/btnDevamAlgo5_1"
+        android:id="@+id/btnDevamAlgo5_7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
+        android:onClick="devamAlgo5_7"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
-        android:onClick="devamAlgo5_1"
         android:text="DEVAM"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button13" />
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <EditText
+        android:id="@+id/edCevapAlgo5_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/elips"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textColorHint="@color/colorAccent"
+        android:hint="  Yazmaya başla"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
 </androidx.constraintlayout.widget.ConstraintLayout>
