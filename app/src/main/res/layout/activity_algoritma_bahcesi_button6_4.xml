@@ -5,27 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/algos6"
-    tools:context=".AlgoritmaBahcesi6.AlgoritmaBahcesiButton6_1">
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="calistirAlgo6_1"
-        android:text="ÇALIŞTIR"
-        android:background="@drawable/elips_button"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo6_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo6_1" />
+    tools:context=".AlgoritmaBahcesi6.AlgoritmaBahcesiButton6_4">
 
     <TextView
-        android:id="@+id/textView111"
+        android:id="@+id/textView117"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -34,16 +17,16 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
+        android:text="kod çalıştığında ekrana ''kanat sayısı'' değerini göstermek için **** yerine ne gelmelidir ? "
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        android:text="\n ilkYari = 3 \n ikinciYari = 1 \n toplam = topla(ilkYari,ikinciYari)\n Goster(toplam) \n"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo6_1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo6_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
 
     <TextView
-        android:id="@+id/textView95"
+        android:id="@+id/textView116"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -52,16 +35,16 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n kusSayisi = 10 \n kanatDegeri = 2 \n kanatSayisi = carp(********) \n Goster(kanatSayisi \n)  "
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        android:text="\n Değer atadığımız değişkenleri parametre olarak kullanabiliriz. \n Fonksiyondan dönen eğerleri değişkene atıyabiliriz \n"
-        app:layout_constraintBottom_toTopOf="@+id/textView111"
+        app:layout_constraintBottom_toTopOf="@+id/textView117"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvCevapAlgo6_1"
+    <EditText
+        android:id="@+id/edCevapAlgo6_4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -69,29 +52,50 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
+        android:ems="10"
+
+        android:hint="\t \t Yazmaya başla"
+        android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/button17"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+        app:layout_constraintTop_toBottomOf="@+id/textView117" />
 
     <Button
-        android:id="@+id/btnDevamAlgo6_1"
+        android:id="@+id/button20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
+        android:onClick="calistirAlgo6_4"
+        android:text="ÇALIŞTIR"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo6_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo6_4" />
+
+    <Button
+        android:id="@+id/btnDevamAlgo6_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
-        android:onClick="devamAlgo6_1"
+        android:background="@drawable/elips_button"
+        android:onClick="devamAlgo6_4"
         android:text="DEVAM"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button17" />
+        app:layout_constraintTop_toBottomOf="@+id/button20" />
 </androidx.constraintlayout.widget.ConstraintLayout>

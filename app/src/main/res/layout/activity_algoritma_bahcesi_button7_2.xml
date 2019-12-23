@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/algos7"
+    tools:context=".AlgoritmaBahcesi7.AlgoritmaBahcesiButton7_2">
+
+    <Button
+        android:id="@+id/btnCevapAlgo7_2_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="cevapAlgo7_2_3"
+        android:text="\n Ekranda veri göstermemizi sağlar. \n"
+        android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo7_2_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo7_2_2" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/colorAccent"
+        android:textSize="32sp"
+        android:text="\n Goster() ne işe yarar ? \n"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo7_2_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCevapAlgo7_2_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="cevapAlgo7_2_1"
+        android:text="\n Kodların anlamını bize gösterir. \n"
+        android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo7_2_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+    <Button
+        android:id="@+id/btnCevapAlgo7_2_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="cevapAlgo7_2_2"
+        android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
+        android:text="\n Kodların çıktısını bize gösterir. \n"
+        app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo7_2_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo7_2_1" />
+
+    <Button
+        android:id="@+id/btnCevapAlgo7_2_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="cevapAlgo7_2_4"
+        android:text="\n Ekranda kodları gösterir. \n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCevapAlgo7_2_3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
