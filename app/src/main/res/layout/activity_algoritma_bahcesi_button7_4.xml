@@ -34,9 +34,10 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
         android:onClick="cevapAlgo7_4_1"
         android:text="\n Fonksiyondur. \n"
-        android:textColor="@color/colorPrimary"
+
         app:layout_constraintBottom_toTopOf="@+id/btnCevapAlgo7_4_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
