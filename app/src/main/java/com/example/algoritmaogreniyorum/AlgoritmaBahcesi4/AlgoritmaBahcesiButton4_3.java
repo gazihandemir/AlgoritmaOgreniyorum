@@ -19,7 +19,7 @@ public class AlgoritmaBahcesiButton4_3 extends AppCompatActivity {
         setContentView(R.layout.activity_algoritma_bahcesi_button4_3);
         btnDevam = findViewById(R.id.btnDevamAlgo4_3);
         btnDevam.setVisibility(View.INVISIBLE);
-        tvCevap=findViewById(R.id.tvCevap4_3);
+        tvCevap=findViewById(R.id.tvCevapAlgo4_3);
         tvCevap.setVisibility(View.INVISIBLE);
 
     }
