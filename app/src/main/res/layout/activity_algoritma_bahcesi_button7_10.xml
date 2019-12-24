@@ -5,26 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/algos7"
-    tools:context=".AlgoritmaBahcesi7.AlgoritmaBahcesiButton7_9">
+    tools:context=".AlgoritmaBahcesi7.AlgoritmaBahcesiButton7_10">
 
     <TextView
-        android:id="@+id/textView131"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n ***( 18 , 2 ) \n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView132"
+        android:id="@+id/textView134"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -33,16 +17,34 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Bölme işleminin gerçekleşmesi için *** yerine ne gelmelidir ?  \n"
+        android:text="\n carp fonksiyonunu kullanarak 20 ile 2 yi çarp. \n"
         android:textColor="@color/colorAccent"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo7_9"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo7_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView131" />
+        app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n ********** \n"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView134"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edCevapAlgo7_9"
+        android:id="@+id/edCevapAlgo7_10"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -56,31 +58,30 @@
         android:textColor="@color/colorAccent"
         android:textColorHint="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button27"
+        app:layout_constraintBottom_toTopOf="@+id/button28"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView132" />
+        app:layout_constraintTop_toBottomOf="@+id/textView134" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
+        android:onClick="calistirAlgo7_10"
+        android:text="ÇALIŞTIR"
         android:background="@drawable/elips_button"
         android:textColor="@color/colorPrimary"
-        android:onClick="calistirAlgo7_9"
-        android:text="ÇALIŞTIR"
-
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo7_9"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo7_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo7_9" />
+        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo7_10" />
 
     <Button
-        android:id="@+id/btnDevamAlgo7_9"
+        android:id="@+id/btnDevamAlgo7_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -88,11 +89,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:onClick="devamAlgo7_9"
+        android:onClick="devamAlgo7_10"
         android:text="DEVAM"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button27" />
+        app:layout_constraintTop_toBottomOf="@+id/button28" />
 </androidx.constraintlayout.widget.ConstraintLayout>
