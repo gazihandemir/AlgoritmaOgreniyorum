@@ -33,9 +33,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
+        android:textColor="@color/colorPrimary"
         android:onClick="calistirAlgo7_6"
         android:text="ÇALIŞTIR"
-        android:textColor="@color/colorPrimary"
+
         app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo7_6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
