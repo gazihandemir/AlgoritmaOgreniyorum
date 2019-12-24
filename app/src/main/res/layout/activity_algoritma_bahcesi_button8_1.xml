@@ -4,11 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/algos7"
-    tools:context=".AlgoritmaBahcesi7.AlgoritmaBahcesiButton7_11">
+    android:background="@drawable/algos8"
+    tools:context=".AlgoritmaBahcesi8.AlgoritmaBahcesiButton8_1">
 
     <TextView
-        android:id="@+id/textView136"
+        android:id="@+id/textView137"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n Mantık operatörleri sonuç olarak \n doğru,başarılı,1 \n veya \n yanlış,başarısız,0 \n olarak sonuç üretir. \n"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView138"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView138"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -17,32 +35,16 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n ilkYari = 5 \n ikinciYari = 2 \n toplam = topla(****) \n Goster(toplam)\n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo7_11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView135" />
-
-    <TextView
-        android:id="@+id/textView135"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Kod çalıştığında ekrana toplamın başarılı  bir şekilde yazdırılabilmesi için **** yerine ne gelmelidir ?  \n"
+        android:text="\n sut = Dogru \n Goster(sut)\n"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo8_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView137" />
 
-    <EditText
-        android:id="@+id/edCevapAlgo7_11"
+    <TextView
+        android:id="@+id/tvCevapAlgo8_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -50,19 +52,16 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
-        android:ems="10"
-        android:hint="\t \t Yazmaya başla"
-        android:inputType="textPersonName"
+        android:gravity="center|center_horizontal|center_vertical"
         android:textColor="@color/colorAccent"
-        android:textColorHint="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintBottom_toTopOf="@+id/button30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView136" />
+        app:layout_constraintTop_toBottomOf="@+id/textView138" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/button30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -70,17 +69,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
-        android:textColor="@color/colorPrimary"
-        android:onClick="calistirAlgo7_11"
+        android:onClick="calistirAlgo8_1"
         android:text="ÇALIŞTIR"
-
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo7_11"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo8_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo7_11" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo8_1" />
 
     <Button
-        android:id="@+id/btnDevamAlgo7_11"
+        android:id="@+id/btnDevamAlgo8_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -88,11 +86,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:onClick="devamAlgo7_11"
+        android:onClick="devamAlgo8_1"
         android:text="DEVAM"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button29" />
+        app:layout_constraintTop_toBottomOf="@+id/button30" />
 </androidx.constraintlayout.widget.ConstraintLayout>
