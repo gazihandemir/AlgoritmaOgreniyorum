@@ -55,7 +55,6 @@
         android:inputType="textPersonName"
         android:background="@drawable/elips"
         android:textColorHint="@color/colorAccent"
-        android:gravity="center|center_horizontal|center_vertical"
         android:hint="\t \t Yazmaya başla"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
