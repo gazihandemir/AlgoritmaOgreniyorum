@@ -4,47 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/algos8"
-    tools:context=".AlgoritmaBahcesi8.AlgoritmaBahcesiButton8_9">
+    android:background="@drawable/algos9"
+    tools:context=".AlgoritmaBahcesi9.AlgoritmaBahcesiButton9_1">
 
-    <TextView
-        android:id="@+id/textView154"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n kosu = Doğru \n sut = kosu \n sonuc = kosu veya sut \n Goster(sonuc)\n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo8_9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView153" />
-
-    <TextView
-        android:id="@+id/textView153"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/elips"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Değişken değerini başka değişkene eğer olarak atayabiliriz. \n Örnekte kosu değişkeninin değeri sut değişkenine atanmıştır.\n"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView154"
+        android:background="@drawable/elips_button"
+        android:onClick="calistirAlgo9_1"
+        android:text="ÇALIŞTIR"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo9_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo9_1" />
 
     <TextView
-        android:id="@+id/tvCevapAlgo8_9"
+        android:id="@+id/tvCevapAlgo9_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -55,29 +36,49 @@
         android:gravity="center|center_horizontal|center_vertical"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button38"
+        app:layout_constraintBottom_toTopOf="@+id/button39"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView154" />
+        app:layout_constraintTop_toBottomOf="@+id/textView156" />
 
-    <Button
-        android:id="@+id/button38"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/elips_button"
-        android:textColor="@color/colorPrimary"
-        android:onClick="calistirAlgo8_9"
-        android:text="ÇALIŞTIR"
-
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo8_9"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n 'Eğer' kod yapısındaki koşul gerçekleştiğinde kod bloğundaki kod çalışır.Örnek kodta sut ,dogruya eşitse sut basarili gösterilsin komutu var \n"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView156"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCevapAlgo8_9" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/elips"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="\n sut = Doğru \n eğer sut == Dogru ;  \n Goster(sut basarili)\n"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCevapAlgo9_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView155" />
 
     <Button
-        android:id="@+id/btnDevamAlgo8_9"
+        android:id="@+id/btnDevamAlgo9_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -85,11 +86,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:onClick="devamAlgo8_9"
+        android:onClick="devamAlgo9_1"
         android:text="DEVAM"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button38" />
+        app:layout_constraintTop_toBottomOf="@+id/button39" />
 </androidx.constraintlayout.widget.ConstraintLayout>
