@@ -19,7 +19,7 @@ import com.example.algoritmaogreniyorum.R;
 public class AlgoritmaBahcesiButton9_4 extends AppCompatActivity {
         Button btnDevam;
         EditText edCevap;
-        static String cevap ="Dogru"
+        static String cevap ="Dogru";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
