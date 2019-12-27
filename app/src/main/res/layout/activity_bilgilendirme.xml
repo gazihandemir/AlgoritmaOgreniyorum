@@ -4,47 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_1"
-    android:background="@drawable/algos1"
 
-
-    >
+    android:background="@color/colorAccent"
+    tools:context=".Bilgilendirme">
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/textView180"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n \n  Bu eğitimde öğrendiklerin gerçek komutlar değildir.\n Algoritma mantığını kavraman için üretilen komutlardır.\n Burada öğrendiklerin gerçek kodların Türkçeleştirilmiş halidir.\nGoster ,print fonksiyonunun türkçeleştirilmiş halidir.
-            \nÖğrenmeni kolaylaştırmak için türkçe başlıyoruz\n 2. bölümden sonra gerçek komutlarla öğrenmeye başlayacağız \n \n .
-
-"
+        android:text="\n Bu uygulamada amacımız Algoritmamızı ve java  bilgiledirimizi geliştirmektir \n \n Algoritma bölümünde 10 kısım olup Java kısmında 7 kısım vardır.\n Uygulamamız java ve algoritma öğrenmek isteyen herkes için kullanıma uygundur. \n \n Uygulamayı kullanırken eğlenmenizi ve öğrenmenizi diliyorum \n \n Şimdiden başarılar  \n"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo1_1"
+        app:layout_constraintBottom_toTopOf="@+id/button51"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnDevamAlgo1_1"
+        android:id="@+id/button51"
+        android:onClick="devamBilgilendir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/elips_button"
-        android:onClick="btnDevamAlgoClick1_1"
         android:text="DEVAM"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+        app:layout_constraintTop_toBottomOf="@+id/textView180" />
 </androidx.constraintlayout.widget.ConstraintLayout>
