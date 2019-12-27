@@ -13,7 +13,7 @@ import com.example.algoritmaogreniyorum.R;
 public class AlgoritmaBahcesiButton2_6 extends AppCompatActivity {
     EditText edCevap;
     Button btnDevam;
-    static String cevap = "21";
+    static String cevap = "20";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

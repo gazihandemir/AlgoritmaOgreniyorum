@@ -16,9 +16,10 @@ import android.widget.Toast;
 import com.example.algoritmaogreniyorum.R;
 
 public class JavaBahcesiButton1_4 extends AppCompatActivity {
-        Button btndevam;
-        EditText edCevap;
-        static int soruCevabı ;
+    Button btndevam;
+    EditText edCevap;
+    static int soruCevabı;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,10 +28,10 @@ public class JavaBahcesiButton1_4 extends AppCompatActivity {
         edCevap = findViewById(R.id.edCevap1_5);
         btndevam.setVisibility(View.INVISIBLE);
     }
-    public void calistir1_4(View view){
+
+    public void calistir1_4(View view) {
         String cevap = "Efsane";
-        soruCevabı = 0;
-        if (cevap.equals(edCevap.getText().toString()) || edCevap.getText().toString().equals("")){
+        if (cevap.contentEquals(edCevap.getText().toString()) || edCevap.getText().toString().equals("")) {
             LayoutInflater inflater = getLayoutInflater();
             View layout = inflater.inflate(R.layout.toast_layout,
                     (ViewGroup) findViewById(R.id.custom_toast_container));
@@ -44,8 +45,8 @@ public class JavaBahcesiButton1_4 extends AppCompatActivity {
             toast.setDuration(Toast.LENGTH_SHORT);
             toast.setView(layout);
             toast.show();
-            soruCevabı = 1;
-        }else{
+            btndevam.setVisibility(View.VISIBLE);
+        } else {
             LayoutInflater inflater = getLayoutInflater();
             View layout = inflater.inflate(R.layout.toast_layout2,
                     (ViewGroup) findViewById(R.id.custom_toast_container));
@@ -60,13 +61,11 @@ public class JavaBahcesiButton1_4 extends AppCompatActivity {
             toast.setView(layout);
             toast.show();
         }
-        if (soruCevabı == 1){
-            btndevam.setVisibility(View.VISIBLE);
 
-        }
+    }
 
-    }public void devam1_4(View view){
-        Intent intent = new Intent(getApplicationContext(),JavaBahcesiButton1_5.class);
+    public void devam1_4(View view) {
+        Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton1_5.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }

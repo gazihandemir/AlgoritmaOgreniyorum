@@ -17,7 +17,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Mantıksal operatörlerde öğrendiklerimizi eğer kod bloğunda kullanabiliriz . \n"
+        android:text="\n sut = Dogru \n kosu = Dogru \n eger sut ve kosu \n Goster(sutBasarili) \n "
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView166"
@@ -35,11 +35,12 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n Mantıksal operatörlerde öğrendiklerimizi eğer kod bloğunda kullanabiliriz . \n"
+        android:text="\n Kod çalıştığında Ekranda ne gösterecektir ? "
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/edCevapAlgo9_6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView165" />
 
@@ -73,10 +74,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips_button"
-        android:textColor="@color/colorPrimary"
         android:onClick="calistirAlgo9_6"
-
         android:text="ÇALIŞTIR"
+
+        android:textColor="@color/colorPrimary"
 
         app:layout_constraintBottom_toTopOf="@+id/btnDevamAlgo9_6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,5 +99,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edCevapAlgo9_6" />
+        app:layout_constraintTop_toBottomOf="@+id/button44" />
 </androidx.constraintlayout.widget.ConstraintLayout>

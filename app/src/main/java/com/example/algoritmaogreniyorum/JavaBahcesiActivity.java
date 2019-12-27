@@ -26,7 +26,6 @@ public class JavaBahcesiActivity extends AppCompatActivity {
     static int buton7;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +40,6 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         btn7 = findViewById(R.id.btnJavaBahce7);
 
 
-/*
         if (buton2 == 1) {
             btn2.setVisibility(View.VISIBLE);
         } else {
@@ -59,21 +57,19 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         }
         if (buton5 == 1) {
             btn5.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn5.setVisibility(View.INVISIBLE);
         }
         if (buton6 == 1) {
             btn6.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn6.setVisibility(View.INVISIBLE);
         }
         if (buton7 == 1) {
             btn7.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn7.setVisibility(View.INVISIBLE);
-        }*/
-
-
+        }
 
 
     }
@@ -121,7 +117,6 @@ public class JavaBahcesiActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), JavaBahcesiButton7_1.class);
         startActivity(intent);
     }
-
 
 
 }

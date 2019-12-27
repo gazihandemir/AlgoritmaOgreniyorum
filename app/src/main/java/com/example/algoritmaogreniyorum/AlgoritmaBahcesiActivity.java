@@ -8,10 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi1.AlgoritmaBahcesiButton1_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi10.AlgoritmaBahcesiButton10_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi2.AlgoritmaBahcesiButton2_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi3.AlgoritmaBahcesiButton3_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi4.AlgoritmaBahcesiButton4_1;
 import com.example.algoritmaogreniyorum.AlgoritmaBahcesi5.AlgoritmaBahcesiButton5_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi6.AlgoritmaBahcesiButton6_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi7.AlgoritmaBahcesiButton7_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi8.AlgoritmaBahcesiButton8_1;
+import com.example.algoritmaogreniyorum.AlgoritmaBahcesi9.AlgoritmaBahcesiButton9_1;
 
 public class AlgoritmaBahcesiActivity extends AppCompatActivity {
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10;
@@ -32,7 +37,7 @@ public class AlgoritmaBahcesiActivity extends AppCompatActivity {
         btn8 = findViewById(R.id.btnAlgoBahcesi8);
         btn9 = findViewById(R.id.btnAlgoBahcesi9);
         btn10 = findViewById(R.id.btnAlgoBahcesi10);
-        /*
+
         if (buton2 == 1) {
             btn2.setVisibility(View.VISIBLE);
         } else {
@@ -50,37 +55,35 @@ public class AlgoritmaBahcesiActivity extends AppCompatActivity {
         }
         if (buton5 == 1) {
             btn5.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn5.setVisibility(View.INVISIBLE);
         }
         if (buton6 == 1) {
             btn6.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn6.setVisibility(View.INVISIBLE);
         }
         if (buton7 == 1) {
             btn7.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn7.setVisibility(View.INVISIBLE);
         }
         if (buton8 == 1) {
             btn8.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn8.setVisibility(View.INVISIBLE);
         }
         if (buton9 == 1) {
             btn9.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn9.setVisibility(View.INVISIBLE);
         }
         if (buton10 == 1) {
             btn10.setVisibility(View.VISIBLE);
-        }else{
+        } else {
             btn10.setVisibility(View.INVISIBLE);
         }
 
-
-        */
 
     }
 
@@ -120,37 +123,37 @@ public class AlgoritmaBahcesiActivity extends AppCompatActivity {
     }
 
     public void btnAlgoBahceClick6(View view) {
-       /* Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton6_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton7 = 1;*/
+        buton7 = 1;
     }
 
     public void btnAlgoBahceClick7(View view) {
-       /* Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton7_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton8 = 1;*/
+        buton8 = 1;
     }
 
     public void btnAlgoBahceClick8(View view) {
-       /* Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton8_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton9 = 1;*/
+        buton9 = 1;
     }
 
     public void btnAlgoBahceClick9(View view) {
-        /*Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton9_1.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
-        buton10 = 1;*/
+        buton10 = 1;
     }
 
     public void btnAlgoBahceClick10(View view) {
-      /*  Intent intent = new Intent(getApplicationContext(),.class);
+        Intent intent = new Intent(getApplicationContext(), AlgoritmaBahcesiButton10_1.class);
         startActivity(intent);
-        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);*/
+        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
 
     }
 }

@@ -52,7 +52,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/elips"
         android:gravity="center|center_horizontal|center_vertical"
-        android:text="\n kosu = Yanlış\n  sut == Dogru \n \n sonuc = kosu veya sut  Goster(sonuc)\n"
+        android:text="\n kosu = Yanlış\n  sut == Dogru \n  sonuc = kosu veya sut \n  Goster(sonuc)\n"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView162"

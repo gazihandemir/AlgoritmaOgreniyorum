@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "864066026056",
+    "firebase_url": "https://algoritma-4834a.firebaseio.com",
+    "project_id": "algoritma-4834a",
+    "storage_bucket": "algoritma-4834a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864066026056:android:5fc570456d715cd4f1767d",
+        "android_client_info": {
+          "package_name": "com.example.algoritmaogreniyorum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864066026056-p6khlk6gf917evbkmbh2ihqmnuhbfj2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDacadgJ9KlI0hJ8QPapNdvxA_kcW-fS6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864066026056-p6khlk6gf917evbkmbh2ihqmnuhbfj2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
